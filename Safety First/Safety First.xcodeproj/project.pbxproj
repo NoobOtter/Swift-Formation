@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D5F23532126FD01005983EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5F23522126FD01005983EE /* AppDelegate.swift */; };
+		5D5F23582126FD01005983EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5F23562126FD01005983EE /* Main.storyboard */; };
+		5D5F235A2126FD01005983EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5F23592126FD01005983EE /* Assets.xcassets */; };
+		5D5F235D2126FD01005983EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5F235B2126FD01005983EE /* LaunchScreen.storyboard */; };
+		5D5F23662126FF11005983EE /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5F23652126FF11005983EE /* Credentials.swift */; };
+		5D5F2368212703C5005983EE /* CredentialsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5F2367212703C5005983EE /* CredentialsManager.swift */; };
+		5D5F236A21270D6F005983EE /* CredentialListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5F236921270D6F005983EE /* CredentialListViewController.swift */; };
+		5D5F236E212AB0FD005983EE /* EditCredentialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5F236D212AB0FD005983EE /* EditCredentialViewController.swift */; };
+		5D5F2370212AFA28005983EE /* CredentialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5F236F212AFA28005983EE /* CredentialViewController.swift */; };
+		DFE7E4DA866A3FF5C42077BC /* Pods_Safety_First.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 599ACA9BBAD276F690114B60 /* Pods_Safety_First.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FEF20DF1DD49D9ADF3F772D /* Pods-Safety First.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safety First.release.xcconfig"; path = "Pods/Target Support Files/Pods-Safety First/Pods-Safety First.release.xcconfig"; sourceTree = "<group>"; };
+		599ACA9BBAD276F690114B60 /* Pods_Safety_First.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Safety_First.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D5F234F2126FD01005983EE /* Safety First.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safety First.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D5F23522126FD01005983EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D5F23572126FD01005983EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D5F23592126FD01005983EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D5F235C2126FD01005983EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D5F235E2126FD01005983EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D5F23652126FF11005983EE /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		5D5F2367212703C5005983EE /* CredentialsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsManager.swift; sourceTree = "<group>"; };
+		5D5F236921270D6F005983EE /* CredentialListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialListViewController.swift; sourceTree = "<group>"; };
+		5D5F236D212AB0FD005983EE /* EditCredentialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCredentialViewController.swift; sourceTree = "<group>"; };
+		5D5F236F212AFA28005983EE /* CredentialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialViewController.swift; sourceTree = "<group>"; };
+		C81CA1E394DB6D7FA2B68578 /* Pods-Safety First.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safety First.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Safety First/Pods-Safety First.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D5F234C2126FD01005983EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE7E4DA866A3FF5C42077BC /* Pods_Safety_First.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		443F14B8DBAEFB0C41D77C50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				599ACA9BBAD276F690114B60 /* Pods_Safety_First.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		482C46D153BAB6D91867051B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C81CA1E394DB6D7FA2B68578 /* Pods-Safety First.debug.xcconfig */,
+				3FEF20DF1DD49D9ADF3F772D /* Pods-Safety First.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D5F23462126FD01005983EE = {
+			isa = PBXGroup;
+			children = (
+				5D5F23512126FD01005983EE /* Safety First */,
+				5D5F23502126FD01005983EE /* Products */,
+				482C46D153BAB6D91867051B /* Pods */,
+				443F14B8DBAEFB0C41D77C50 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D5F23502126FD01005983EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D5F234F2126FD01005983EE /* Safety First.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D5F23512126FD01005983EE /* Safety First */ = {
+			isa = PBXGroup;
+			children = (
+				5D5F23642126FED1005983EE /* Model */,
+				5D5F23522126FD01005983EE /* AppDelegate.swift */,
+				5D5F23562126FD01005983EE /* Main.storyboard */,
+				5D5F23592126FD01005983EE /* Assets.xcassets */,
+				5D5F235B2126FD01005983EE /* LaunchScreen.storyboard */,
+				5D5F235E2126FD01005983EE /* Info.plist */,
+				5D5F236921270D6F005983EE /* CredentialListViewController.swift */,
+				5D5F236D212AB0FD005983EE /* EditCredentialViewController.swift */,
+				5D5F236F212AFA28005983EE /* CredentialViewController.swift */,
+			);
+			path = "Safety First";
+			sourceTree = "<group>";
+		};
+		5D5F23642126FED1005983EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D5F23652126FF11005983EE /* Credentials.swift */,
+				5D5F2367212703C5005983EE /* CredentialsManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D5F234E2126FD01005983EE /* Safety First */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D5F23612126FD01005983EE /* Build configuration list for PBXNativeTarget "Safety First" */;
+			buildPhases = (
+				837A0CB757371E9CF51AFFCB /* [CP] Check Pods Manifest.lock */,
+				5D5F234B2126FD01005983EE /* Sources */,
+				5D5F234C2126FD01005983EE /* Frameworks */,
+				5D5F234D2126FD01005983EE /* Resources */,
+				CCFEAA2DE8CE9864FF69F248 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Safety First";
+			productName = "Safety First";
+			productReference = 5D5F234F2126FD01005983EE /* Safety First.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D5F23472126FD01005983EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Hippo;
+				TargetAttributes = {
+					5D5F234E2126FD01005983EE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5D5F234A2126FD01005983EE /* Build configuration list for PBXProject "Safety First" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D5F23462126FD01005983EE;
+			productRefGroup = 5D5F23502126FD01005983EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D5F234E2126FD01005983EE /* Safety First */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D5F234D2126FD01005983EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5F235D2126FD01005983EE /* LaunchScreen.storyboard in Resources */,
+				5D5F235A2126FD01005983EE /* Assets.xcassets in Resources */,
+				5D5F23582126FD01005983EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		837A0CB757371E9CF51AFFCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Safety First-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCFEAA2DE8CE9864FF69F248 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Safety First/Pods-Safety First-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Safety First/Pods-Safety First-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D5F234B2126FD01005983EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5F2368212703C5005983EE /* CredentialsManager.swift in Sources */,
+				5D5F2370212AFA28005983EE /* CredentialViewController.swift in Sources */,
+				5D5F23662126FF11005983EE /* Credentials.swift in Sources */,
+				5D5F236E212AB0FD005983EE /* EditCredentialViewController.swift in Sources */,
+				5D5F23532126FD01005983EE /* AppDelegate.swift in Sources */,
+				5D5F236A21270D6F005983EE /* CredentialListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D5F23562126FD01005983EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D5F23572126FD01005983EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D5F235B2126FD01005983EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D5F235C2126FD01005983EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D5F235F2126FD01005983EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D5F23602126FD01005983EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D5F23622126FD01005983EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C81CA1E394DB6D7FA2B68578 /* Pods-Safety First.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3S3532N77;
+				INFOPLIST_FILE = "Safety First/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hippo.Safety-First";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D5F23632126FD01005983EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FEF20DF1DD49D9ADF3F772D /* Pods-Safety First.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3S3532N77;
+				INFOPLIST_FILE = "Safety First/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hippo.Safety-First";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D5F234A2126FD01005983EE /* Build configuration list for PBXProject "Safety First" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5F235F2126FD01005983EE /* Debug */,
+				5D5F23602126FD01005983EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D5F23612126FD01005983EE /* Build configuration list for PBXNativeTarget "Safety First" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5F23622126FD01005983EE /* Debug */,
+				5D5F23632126FD01005983EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D5F23472126FD01005983EE /* Project object */;
+}

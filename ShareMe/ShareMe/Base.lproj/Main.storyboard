@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ShareMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Share Me" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ANX-vP-jpc">
+                                <rect key="frame" x="134" y="44" width="107" height="31.666666666666671"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i4P-yM-8IL">
+                                <rect key="frame" x="16" y="151.33333333333334" width="343" height="140.00000000000003"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="RR0-N2-wFO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v0j-2j-p4s">
+                                <rect key="frame" x="158" y="391.33333333333331" width="59" height="30"/>
+                                <state key="normal" title="Partager"/>
+                                <connections>
+                                    <action selector="shareTypedText" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xb4-h6-WiR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Entrer le texte à partager :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SzS-ox-uNK">
+                                <rect key="frame" x="16" y="106" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cJV-Oa-JVj">
+                                <rect key="frame" x="16" y="518" width="343" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.61960784310000006" green="0.61960784310000006" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ANX-vP-jpc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="0ts-b0-d6g"/>
+                            <constraint firstItem="i4P-yM-8IL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Aho-Of-Her"/>
+                            <constraint firstItem="SzS-ox-uNK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="GQI-q7-zXm"/>
+                            <constraint firstItem="cJV-Oa-JVj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Hip-1i-93K"/>
+                            <constraint firstItem="i4P-yM-8IL" firstAttribute="top" secondItem="SzS-ox-uNK" secondAttribute="bottom" constant="24" id="O2v-xw-LOF"/>
+                            <constraint firstItem="v0j-2j-p4s" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VRQ-og-hZP"/>
+                            <constraint firstItem="v0j-2j-p4s" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bbY-OY-v9G"/>
+                            <constraint firstItem="cJV-Oa-JVj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ebh-Du-XbZ"/>
+                            <constraint firstItem="cJV-Oa-JVj" firstAttribute="top" secondItem="v0j-2j-p4s" secondAttribute="bottom" constant="96.666666666666686" id="gMD-c2-NhK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SzS-ox-uNK" secondAttribute="trailing" constant="16" id="hAC-Tf-dBf"/>
+                            <constraint firstItem="ANX-vP-jpc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jdW-kU-H9Y"/>
+                            <constraint firstItem="i4P-yM-8IL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="kCJ-bl-Tct"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cJV-Oa-JVj" secondAttribute="trailing" constant="16" id="lyP-69-mpB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="i4P-yM-8IL" secondAttribute="trailing" constant="16" id="nxY-kw-OCi"/>
+                            <constraint firstItem="v0j-2j-p4s" firstAttribute="top" secondItem="i4P-yM-8IL" secondAttribute="bottom" constant="100" id="o3i-Zc-K9b"/>
+                            <constraint firstItem="SzS-ox-uNK" firstAttribute="top" secondItem="ANX-vP-jpc" secondAttribute="bottom" constant="30" id="rCo-TK-Nd1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="ui_errorLabel" destination="cJV-Oa-JVj" id="BGa-NY-sXC"/>
+                        <outlet property="ui_shareTextView" destination="i4P-yM-8IL" id="faU-Sp-nMk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.00492610837438"/>
+        </scene>
+    </scenes>
+</document>
